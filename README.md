@@ -2,6 +2,8 @@
 
 A simple webcomponent that displays code preview via highlight.js and shows a preview of the created code in an iframe.
 
+![screenshot](https://user-images.githubusercontent.com/2781095/164992681-2c744514-bdf3-4875-a959-1ebd95858501.png)
+
 I'm using this on my website (ie [here](https://matthias-kainer.de/blog/posts/20-years-of-microfrontends/#widgets)), so it is a bit of a playground and the theme is supposed to work best there.
 
 ## Usage
@@ -16,7 +18,7 @@ I'm using this on my website (ie [here](https://matthias-kainer.de/blog/posts/20
     </preview-code-control>
 ```
 
-See the [/docs](docs/index.html) for more information.
+See the [/docs](docs/index.html) for more information, and the created page here: [matthiaskainer.github.io/preview-code-control/](https://matthiaskainer.github.io/preview-code-control/) to see how it looks.
 
 ### Attributes
 
