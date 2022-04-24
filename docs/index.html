@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Example</title>
+    <script type="module" src="https://unpkg.com/preview-code-control@latest?module"></script>
+</head>
+<body>
+    <div class="container">
+        <H2>Pure-Lit Example</H2>
+        <p>Native ES6 modules can be loaded without any further ado.</p>
+        <preview-code-control
+            location="purelit"
+            show="code,html,preview"
+        >
+            Please wait while the code is being loaded...
+        </preview-code-control>
+        <H2>React Example</H2>
+        <p>
+            Note that we will have to use React as ES6 module, with html binding instead of JSX transformations for this to work.
+        </p>
+        <preview-code-control
+            location="react"
+            show="code,preview,html"
+        >
+            Please wait while the code is being loaded...
+        </preview-code-control>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "preview-code-control",
+  "version": "1.0.0",
+  "description": "A simple webcomponent that displays code preview via highlight.js and shows a preview of the created code in an iframe",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthiasKainer/preview-code-control.git"
+  },
+  "author": "Matthias Kainer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatthiasKainer/preview-code-control/issues"
+  },
+  "homepage": "https://github.com/MatthiasKainer/preview-code-control#readme"
+}
